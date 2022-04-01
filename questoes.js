@@ -18,4 +18,22 @@ let questions = [
         ],
         answer: 2
     },
+    {
+        question: 'Qual a sintaxe correta para adicionar um arquivo javascript externo na tag script?',
+        options: [
+            'name="xxx.js"',
+            'src="xxx.js"',
+            'href="xxx.js"'
+        ],
+        answer: 1
+    },
+    {
+        question: 'Um arquivo javascript externo precisa ter a tag script',
+        options: [
+            'Verdade',
+            'Falso'
+        ],
+        answer: 1
+    },
+
 ];
