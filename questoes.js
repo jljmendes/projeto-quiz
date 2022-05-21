@@ -1,11 +1,11 @@
 let questions = [
     {
-        question: 'Em qual elemento HTML nós colocamos o javascript?',
+        question: 'Qual das alternativas a seguir, está correta para criar um link de ação de um CRUD?',
         options: [
-            'tag js',
-            'tag script',
-            'tag scripting',
-            'tag javascript'
+            '<a href="delete.html"> Deletar <a/>',
+            '<a href={{ route('exemplo.deletar', ['id'=>$item->id]}}> Deletar <a/>',
+            '<a href={{ route('exemplo.deletar'}}> Deletar <a/>',
+            '<a action="del"> Deletar <a/>'
         ],
         answer: 1
     },
